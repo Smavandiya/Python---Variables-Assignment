@@ -1,0 +1,54 @@
+Python-Variables
+Assignment Questions 
+Assignment 
+
+Q1. Write all the conventions being followed while declaring a variable. 
+Solution- Declaring a variable in programming entails giving a name to a value or piece of information that can be utilised later on. When declaring a variable, there are a few norms that are commonly adhered to:
+1.This makes the code easier to read and comprehend. Variable names should be meaningful and descriptive. Lower case should be used for variable names, and if they contain multiple words, an underscore (_) or camelCase notation should be used to separate them.
+2.Reservated terms should not be used as variable names because they are not permitted in programming languages. For instance, the word "if" is a reserved word in Python, thus you cannot use it as a variable name.
+3.Declare variables with the appropriate data type: Variables can hold different types of data, such as strings, integers, or floating-point numbers. It is important to declare the correct data type when declaring a variable.
+4.Initialize variables: Variables should be initialized with a value when they are declared. If the value is not known at the time of declaration, it is recommended to initialize it to a default value.
+5.Keep variable scope in mind: The scope of a variable determines where in the program it can be accessed. It is important to declare variables in the appropriate scope.
+6.Follow language-specific conventions: Different programming languages have different conventions for declaring variables. For example, in some languages, such as Java, variable names should begin with a lowercase letter, while in others, such as C++, variable names should begin with an uppercase letter.
+7.Avoid using abbreviations: While abbreviations may save time and effort, they can make the code harder to read and understand. It is recommended to use descriptive names for variables instead of abbreviations.
+
+
+
+Q2. What will happen if we declare a restricted keyword as a variable?
+Solution. Declaring a restricted keyword as a variable is not allowed in programming languages because these keywords have a special meaning and purpose within the language. If you try to declare a restricted keyword as a variable, you will usually receive a syntax error or a compilation error from the compiler or interpreter.
+For example, in Python, if you try to declare a variable with the name if, which is a reserved keyword, you will receive a syntax error similar to the following:
+error: illegal variable name
+
+Q3. Can we actually declare a string as a variable name? 
+Solution. 
+Yes, it is possible to declare a string as a variable name in some programming languages, such as Python and JavaScript. In Python, for example, you can declare a variable named "my_string". In JavaScript, you can declare a variable named "myString".
+However, there are some restrictions on what you can use as a variable name. For example, you cannot use a string that contains a space or a special character. You also cannot use a string that is the same as a reserved keyword in the programming language.
+It is important to choose variable names that are descriptive and easy to read. Using long, complicated variable names can make your code difficult to understand.
+
+Q4. Is it possible for us to declare “_” as a variable? If so, then write an example of it. 
+Solution. Yes, in Python, it is possible to declare a variable with the name "_" (underscore). The underscore  is a valid character for variable names in Python, and it is often used as  placeholder variable or to represent an unused variable.
+Here is an example of declaring a variable with the name "_" in Python:
+_ = 42
+
+In this example, we are assigning the value 42 to the variable named "". The variable name "" is valid in Python, and can be used like any other variable name. However, it's important to note that using a single underscore as a variable name can make the code less readable, so it's generally better to use more descriptive variable names when possible.
+
+
+
+Q5. Using an example, explain how the variables in python are dynamic in nature. 
+Solution. 
+In Python, variables are dynamic in nature, which means that the data type of a variable can be changed at runtime. This allows for greater flexibility and adaptability in Python programs. Here is an example:
+Copy code
+x = 5
+print(type(x)) 
+ # Output: 
+x = "Hello"
+print(type(x))  
+# Output: 
+In this example, we first declare a variable named "x" and assign it the value 5. We then print the data type of "x" using the type() function, which returns  indicating that "x" is an integer.
+
+We then assign the variable "x" the string "Hello", replacing the integer value. We then again print the data type of "x" using the type() function, which now returns  indicating that "x" is now a string.
+
+This shows that in Python, the data type of a variable can change at runtime, based on the value that is assigned to it. This makes Python very flexible and easy to work with, as we don't have to declare the data type of a variable beforehand, as is required in some other programming languages.
+
+Note:  Create your assignment in Jupyter notebook and upload it to GitHub & share that github repository  link through your dashboard. Make sure the repository is public.
+Python Foundations 
